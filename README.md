@@ -53,3 +53,4 @@ We will use the following references as a guide:
 - https://www.sciencedirect.com/science/article/abs/pii/S0143622822002259
 - https://tema-project.eu/articles/wildfire-mapping-using-sar-derived-nbr-through-generative-adversarial-network
 - https://www.diva-portal.org/smash/get/diva2:1557423/FULLTEXT02.pdf
+- https://arxiv.org/html/2501.09129v1
