@@ -1,6 +1,6 @@
 # FIREMAPS
 Project Title:
-FIREMAPS: Fire Imaging, Recognition, and Evaluation Mapping with AI Processing with SAR 
+FIREMAPS: Fire Imaging, Recognition, and Evaluation Mapping with AI Processing SAR 
 
 ## Team Members:
 Rafael Rubenstein and Matt McMaster
