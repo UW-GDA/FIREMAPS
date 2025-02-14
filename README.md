@@ -20,9 +20,9 @@ Our main objective is to draw a bounding shape around the burned landscape. Pend
 ## Datasets you will use (with links, if available)
 
 We will use at least the following datasets:
-https://search.earthdata.nasa.gov/search?fi=SAR
-https://developers.google.com/earth-engine/datasets/catalog/sentinel
-https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-1
+- https://search.earthdata.nasa.gov/search?fi=SAR
+- https://developers.google.com/earth-engine/datasets/catalog/sentinel
+- https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-1
 
 ## Tools/packages you’ll use (with links)
 
@@ -41,7 +41,15 @@ Gain experience with SAR data and ML techniques. Produce a model with greater th
 
 ## Any other relevant information, images/tables, references, etc.
 
+- https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar
+- https://byrd.osu.edu/news/revolutionizing-wildfire-management-sar-technology-enhances-detection-and-response
+- https://medium.com/@robmarkcole/deep-learning-with-sar-18b27972a4b5
 
 ## References
 
-https://www.nature.com/articles/s41598-019-56967-x#Tab1
+We will use the following references as a guide:
+
+- https://www.nature.com/articles/s41598-019-56967-x#Tab1
+- https://www.sciencedirect.com/science/article/abs/pii/S0143622822002259
+- https://tema-project.eu/articles/wildfire-mapping-using-sar-derived-nbr-through-generative-adversarial-network
+- https://www.diva-portal.org/smash/get/diva2:1557423/FULLTEXT02.pdf
