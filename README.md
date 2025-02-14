@@ -22,6 +22,7 @@ Our main objective is to draw a bounding shape around the burned landscape. Pend
 We will use at least the following datasets:
 https://search.earthdata.nasa.gov/search?fi=SAR
 https://developers.google.com/earth-engine/datasets/catalog/sentinel
+https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-1
 
 ## Tools/packages you’ll use (with links)
 
@@ -30,9 +31,16 @@ For general coding and SAR handling we will use numpy, pandas, geopandas, raster
 
 ## Planned methodology/approach
 
+- Load in SAR data with active wildfires using methods learned in class/lab
+- Do any necessary pre-processing and formatting, including partitioning for our ML model
+- Train a convolutional neural network using available Python tools, then validate and test results
+
 ## Expected outcomes
 
+Gain experience with SAR data and ML techniques. Produce a model with greater than 75% accuracy.
+
 ## Any other relevant information, images/tables, references, etc.
+
 
 ## References
 
