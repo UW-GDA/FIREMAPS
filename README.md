@@ -12,9 +12,9 @@ One of the main benefits of synthetic aperture radar (SAR) imagery is the abilit
 ## Datasets we used:
 
 We used the following datasets:
-- [https://search.earthdata.nasa.gov/search?fi=SAR](https://felt.com/map/Capella-Space-Open-Data-bB24xsH3SuiUlpMdDbVRaA?loc=0,-20.53,1.88z)
-- [https://developers.google.com/earth-engine/datasets/catalog/sentinel](https://radiantearth.github.io/stac-browser/#/external/capella-open-data.s3.us-west-2.amazonaws.com/stac/catalog.json?.language=en)
-- [https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-1](https://data-nifc.opendata.arcgis.com/datasets/7c81ab78d8464e5c9771e49b64e834e9_0/explore?showTable=true)
+- https://felt.com/map/Capella-Space-Open-Data-bB24xsH3SuiUlpMdDbVRaA?loc=0,-20.53,1.88z
+- https://radiantearth.github.io/stac-browser/#/external/capella-open-data.s3.us-west-2.amazonaws.com/stac/catalog.json?.language=en
+- https://data-nifc.opendata.arcgis.com/datasets/7c81ab78d8464e5c9771e49b64e834e9_0/explore?showTable=true
 - https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30
 
 ## Tools/packages we used:
