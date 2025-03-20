@@ -19,20 +19,55 @@ We used the following datasets:
 
 ## Tools/packages we used:
 
-Download_Data.ipynb requires:
+Download_Data.ipynb requires the following Python packages:
+- os
+- requests
+- json
+- urllib.parse
+- numpy
+- rastero
+- matplotlib
 
-Label_Chip_Data.ipynb requires:
+Label_Chip_Data.ipynb requires the following Python packages:
+- numpy
+- geopandas
+- matplotlib
+- matplotlib_scalebar
+- contextily
+- os
+- rasterio
+- shapely
+- warnings
 
-CNN.ipynb requires: 
+CNN.ipynb requires the following Python packages: 
+- json
+- numpy
+- rasterio
+- torch
+- PIL
+- os
+- itertools
+- sklearn
 
-DEM.ipynb requires:
-
+DEM.ipynb requires the following Python packages:
+- pystac_client
+- planetary_computer
+- os
+- rasterio
+- geopandas
+- shapely
+- matplotlib
+- matplotlib_scalebar
+- contextily
+- rioxarray
 
 ## Methodology:
 
-- Load in SAR data with active wildfires using methods learned in class/lab
-- Do any necessary pre-processing and formatting, including partitioning for our ML model
-- Train a convolutional neural network using available Python tools, then validate and test results
+- Load in SAR data in regions with active wildfires using methods learned in class/lab
+- Clip wildfire boundaries to SAR images
+- Chip labeled SAR data to prepare for CNN training
+- Train CNN using hyperparameter grid search and evaluate accuracy to choose model
+- Apply model to subset of chipped, labeled data to validate accuracy
 
 ## Results:
 
