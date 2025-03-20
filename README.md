@@ -77,6 +77,7 @@ Gain experience with SAR data and ML techniques. Produce a model with greater th
 
 - Results: Successfuly prepared SAR data and trained a model with 77.5% accuracy!
 - Conclusions:
+  - Predicting active wildfire boundaries with X-band SAR imagery is a realistic task.
   - SAR data is tricky to work with - much of the time was spent figuring out how to feed it into the CNN.
   - CNNs are expensive to train! More time and/or processing power would have helped immensely.
 - Future Directions:
