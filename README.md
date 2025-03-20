@@ -81,7 +81,7 @@ Gain experience with SAR data and ML techniques. Produce a model with greater th
   - CNNs are expensive to train! More time and/or processing power would have helped immensely.
 - Future Directions:
   - Build out a binary image classifier to filter out amount of data that get fed into the CNN boundary generator.
-  - Integrate DEM, weather data, soil mosture data, etc. to create a more robust model to predict where fires may spread.
+  - Integrate DEM, weather data, soil mosture data, etc. to create a more robust model to predict where fires may spread to improve first-responder situational awareness.
 
 ## References
 
