@@ -25,7 +25,7 @@ Download_Data.ipynb requires the following Python packages:
 - json
 - urllib.parse
 - numpy
-- rastero
+- rasterio
 - matplotlib
 
 Label_Chip_Data.ipynb requires the following Python packages:
@@ -63,11 +63,13 @@ DEM.ipynb requires the following Python packages:
 
 ## Methodology:
 
-- Load in SAR data in regions with active wildfires using methods learned in class/lab
-- Clip wildfire boundaries to SAR images
+- Download SAR imagery from Open Capella SAR data, wildfire perimeter data from WFIGS, and Digital Elevation Map data from Copernicus 30m DEM
+- Load in SAR data in regions with active wildfires using methods learned in class/labs
+- Identify intersections between boundaries of SAR extent and wildfire boundaries
 - Chip labeled SAR data to prepare for CNN training
 - Train CNN using hyperparameter grid search and evaluate accuracy to choose model
 - Apply model to subset of chipped, labeled data to validate accuracy
+- Create DEM overlay with SAR/wildfire intersections to gain greater situational awareness regarding topographical features in the area
 
 ## Goals:
 
