@@ -69,9 +69,19 @@ DEM.ipynb requires the following Python packages:
 - Train CNN using hyperparameter grid search and evaluate accuracy to choose model
 - Apply model to subset of chipped, labeled data to validate accuracy
 
-## Results:
+## Goals:
 
 Gain experience with SAR data and ML techniques. Produce a model with greater than 75% accuracy.
+
+## Results / Conclusions / Future Directions:
+
+- Results: Successfuly prepared SAR data and trained a model with 77.5% accuracy!
+- Conclusions:
+  - SAR data is tricky to work with - much of the time was spent figuring out how to feed it into the CNN.
+  - CNNs are expensive to train! More time and/or processing power would have helped immensely.
+- Future Directions:
+  - Build out a binary image classifier to filter out amount of data that get fed into the CNN boundary generator.
+  - Integrate DEM, weather data, soil mosture data, etc. to create a more robust model to predict where fires may spread.
 
 ## References
 
